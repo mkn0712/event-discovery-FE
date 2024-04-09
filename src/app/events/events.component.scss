@@ -1,0 +1,78 @@
+.header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    background: darkseagreen;
+    text-align: center;
+    align-content: center;
+    height: 50px;
+  }
+  
+  .params {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+    select {
+        height: 35px;
+    }
+  }
+  
+  .param {
+    margin-right: 20px;
+  }
+  
+  .param label {
+    font-weight: bold;
+  }
+  
+  .param input[type="text"],
+  .param input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    padding: 8px 20px;
+    background-color: darkseagreen;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: darkseagreen;
+  }
+
+.event-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .event-card {
+    background-color: rgb(216, 239, 216);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .event-card h3 {
+    margin-top: 0;
+  }
+  
+  .event-card p {
+    margin: 5px 0;
+  }
+  
+  .buy-tickets-link {
+    display: block;
+    text-decoration: none;
+    color: rgb(39, 63, 39)
+  }
+  
+  .buy-tickets-link:hover {
+    text-decoration: underline;
+  }
